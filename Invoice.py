@@ -25,7 +25,7 @@ class Invoice:
         return total_discount
 
     def totalPurePrice(self, products):
-        total_pure_price = self.totalImpurePrice(products)-self.totalDiscount(products)
+        total_pure_price = self.totalImpurePrice(products) - self.totalDiscount(products)
         return total_pure_price
 
     def inputAnswer(self, input_value):
@@ -44,4 +44,3 @@ class Invoice:
                 continue
             else:
                 return userInput
-
